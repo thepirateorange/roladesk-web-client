@@ -1,0 +1,20 @@
+/*custom*/
+/*@import url(../fonts/gudea/font.css);*/
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gudea'), local('Gudea-Regular'), url('../fonts/gudea/400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gudea Bold'), local('Gudea-Bold'), url('../fonts/gudea/700.woff') format('woff');
+}
+
+body{
+	font-family: "Gudea", "Helvetica Neue", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+}
